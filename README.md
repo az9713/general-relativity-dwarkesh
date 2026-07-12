@@ -1,5 +1,11 @@
 # Essence of General Relativity
 
+## Live course
+
+**[Open the interactive General Relativity course →](https://az9713.github.io/general-relativity-dwarkesh/)**
+
+The GitHub Pages edition includes all seven lessons, reconstructed board arguments, interactive visual labs, practice, references, and the Einstein Archive.
+
 > **For agents & developers:** full implementation snapshot, architecture, validation results, and extension rules are in **[`IMPLEMENTATION_STATUS.md`](./IMPLEMENTATION_STATUS.md)**. Read that before major changes.
 
 Interactive, **offline-capable** HTML learning experience grounded in Adam Brown’s lecture (Dwarkesh Patel conversation). The course separates:
