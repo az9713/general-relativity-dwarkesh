@@ -6,6 +6,8 @@
 
 The GitHub Pages edition includes all seven lessons, reconstructed board arguments, interactive visual labs, practice, references, and the Einstein Archive.
 
+**Project credit:** This course is a joint project of **Grok 4.5** and **GPT 5.6 sol**.
+
 > **For agents & developers:** full implementation snapshot, architecture, validation results, and extension rules are in **[`IMPLEMENTATION_STATUS.md`](./IMPLEMENTATION_STATUS.md)**. Read that before major changes.
 
 Interactive, **offline-capable** HTML learning experience grounded in Adam Brown’s lecture (Dwarkesh Patel conversation). The course separates:
