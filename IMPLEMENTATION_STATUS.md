@@ -38,7 +38,7 @@ Delivered under the plan’s “first task after authorization” and recorded i
 
 | Deliverable | Location | Notes |
 |-------------|----------|--------|
-| Immutable raw transcript | `transcript.txt` | Must not be rewritten by tooling |
+| Immutable raw transcript | `transcript.txt` | Local-only; Git-ignored; must not be rewritten or published |
 | Normalized working copy | `source/transcript.normalized.txt` | UTF-8 / NFC / LF |
 | Timestamp fragments | `source/timestamp_fragments.json` | **744** monotonic interview fragments (parser stops on timestamp regression; excludes trailing next-video noise) |
 | Argument units | `source/argument_units.json` | **46** curated teaching units |
@@ -89,7 +89,7 @@ general_relativity_dwarkesh/
 ├── GR_LEARNING_MATERIALS_PLAN.md   # Full product + scientific + archive spec
 ├── IMPLEMENTATION_STATUS.md        # THIS FILE — agent/human reference
 ├── README.md                       # How to run / high-level map
-├── transcript.txt                  # IMMUTABLE raw source
+├── transcript.txt                  # LOCAL-ONLY raw source; not tracked
 ├── package.json                    # npm scripts, vite, katex
 ├── vite.config.js                  # Multi-page HTML entry discovery
 │
@@ -337,7 +337,7 @@ node scripts/build_source_maps.js
 node scripts/validate_source.js
 ```
 
-**Never** let these rewrite `transcript.txt`.
+**Never** let these rewrite or commit the local-only `transcript.txt`.
 
 ### 7.3 Vite multi-page build
 
@@ -399,7 +399,7 @@ Plan §13 “Complete means…” and Phases 2–10. Use this as the **work queu
 2. **Vanilla JS + Vite**, not React (plan default unless a concrete need appears).  
 3. **Provenance is first-class UI**, not footnotes-only.  
 4. **Boards are reconstructions** with confidence; never “facsimile of Brown’s board.”  
-5. **`transcript.txt` is sacred.**  
+5. **`transcript.txt` is local-only and sacred.**  
 6. **Simulations must state assumptions**; conceptual explorers must not pose as numerical GR solvers.  
 7. **History requires evidence status**; fame ≠ friendship edge weight.  
 8. **Lesson rail uses ordinary links**, not ARIA tabs that hide multi-page addresses.  
@@ -522,7 +522,7 @@ Recorded during implementation conversations:
 If documents disagree, resolve in this order:
 
 1. **Scientific / historical truth + plan guardrails** over convenience.  
-2. **`transcript.txt` + `source/` registries** over lesson prose if a lecture claim is at stake.  
+2. **A locally supplied `transcript.txt` + `source/` registries** over lesson prose if a lecture claim is at stake.  
 3. **`GR_LEARNING_MATERIALS_PLAN.md`** for product intent.  
 4. **This file** for what actually exists in the repo.  
 5. **`README.md` / `ai/*`** for shorter summaries (may lag).

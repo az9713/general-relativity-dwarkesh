@@ -1,6 +1,3 @@
-# Preserve the supplied raw transcript byte-for-byte across operating systems.
-transcript.txt -text
-
 # Keep source code and generated registries normalized as text.
 *.js text eol=lf
 *.json text eol=lf

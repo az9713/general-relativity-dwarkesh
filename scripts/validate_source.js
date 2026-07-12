@@ -44,8 +44,13 @@ const claims = readJson('claims.json');
 const boards = readJson('board_reconstructions.json');
 
 if (registry) {
-  const raw = fs.readFileSync(path.join(root, registry.primarySource.rawPath));
-  if (sha256(raw) !== registry.primarySource.rawSha256) errors.push('Raw transcript SHA-256 changed');
+  const rawPath = path.join(root, registry.primarySource.rawPath);
+  if (fs.existsSync(rawPath)) {
+    const raw = fs.readFileSync(rawPath);
+    if (sha256(raw) !== registry.primarySource.rawSha256) errors.push('Raw transcript SHA-256 changed');
+  } else {
+    warnings.push('Raw transcript is local-only and was not supplied; skipped raw SHA-256 verification');
+  }
   const normalized = fs.readFileSync(path.join(root, registry.primarySource.normalizedPath), 'utf8');
   if (normalized.includes('\r')) errors.push('Normalized transcript contains CR line endings');
   if (normalized.normalize('NFC') !== normalized) errors.push('Normalized transcript is not NFC');

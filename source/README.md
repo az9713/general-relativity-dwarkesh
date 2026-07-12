@@ -4,7 +4,7 @@ This directory contains the derived evidence layer for the interactive general-r
 
 ## Authority order
 
-1. `../transcript.txt` — immutable raw source supplied by the user.
+1. `../transcript.txt` — optional, local-only immutable raw source supplied by the user; intentionally ignored by Git.
 2. `transcript.normalized.txt` — UTF-8/NFC/LF working copy.
 3. `timestamp_fragments.json` — mechanically parsed caption fragments with source lines.
 4. `argument_units.json` — curated complete arguments grouped by lesson.
@@ -28,7 +28,7 @@ node scripts/build_source_maps.js
 node scripts/validate_source.js
 ```
 
-`transcript.txt` must not be edited by these scripts.
+`transcript.txt` must not be edited by these scripts or committed to the public repository.
 
 ## Current validated counts
 

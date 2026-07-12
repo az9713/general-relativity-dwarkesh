@@ -43,7 +43,7 @@ The `dist/` folder is a static site. After build, no CDN is required; assets are
 
 | Path | Role |
 |------|------|
-| `transcript.txt` | Immutable raw transcript |
+| `transcript.txt` | Local-only immutable raw transcript; ignored by Git and not published |
 | `source/` | Normalized transcript, argument units, claims, boards |
 | `src/` | Course app (content, components, apps, styles) |
 | `lessons/` | Seven lesson HTML entry points |
@@ -99,4 +99,4 @@ node scripts/build_source_maps.js
 node scripts/validate_source.js
 ```
 
-Do not edit `transcript.txt` via these scripts.
+Do not edit or commit the local-only `transcript.txt` via these scripts.
