@@ -1,0 +1,197 @@
+.archive-theme {
+  --bg: var(--archive-paper);
+  --bg-elevated: #faf3e3;
+  --bg-muted: #ebe1c9;
+  --ink: var(--archive-ink);
+  --ink-muted: #5a5042;
+  --ink-faint: #7a6f5d;
+  --border: var(--archive-rule);
+  --border-strong: #b9a882;
+  --geometry: var(--archive-prussian);
+  --matter: var(--archive-oxblood);
+  font-family: var(--font-serif);
+  background:
+    radial-gradient(ellipse at top, rgba(166, 137, 61, 0.06), transparent 50%),
+    var(--archive-paper);
+}
+
+.archive-theme .site-header,
+.archive-theme .lesson-rail-wrap {
+  background: rgba(243, 234, 214, 0.94);
+}
+
+.archive-theme h1,
+.archive-theme h2,
+.archive-theme h3 {
+  font-family: var(--font-serif);
+  color: var(--archive-prussian);
+}
+
+.archive-theme h1 {
+  border-bottom: 2px solid var(--archive-gold);
+  padding-bottom: 0.4rem;
+}
+
+.archive-rail {
+  display: flex;
+  gap: 0.35rem;
+  overflow-x: auto;
+  padding: 0.4rem 0.5rem;
+  max-width: var(--max-width-wide);
+  margin: 0 auto;
+}
+
+.archive-rail a {
+  flex: 0 0 auto;
+  text-decoration: none;
+  color: var(--archive-ink);
+  border: 1px solid var(--archive-rule);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  background: #faf3e3;
+}
+
+.archive-rail a[aria-current='page'] {
+  background: var(--archive-prussian);
+  color: #faf3e3;
+  border-color: var(--archive-prussian);
+}
+
+.folio {
+  font-variant-numeric: tabular-nums;
+  color: var(--archive-gold);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.marginalia {
+  font-size: 0.88rem;
+  color: var(--archive-oxblood);
+  border-left: 2px solid var(--archive-gold);
+  padding-left: 0.75rem;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.timeline {
+  border-left: 2px solid var(--archive-gold);
+  margin: 1.25rem 0 1.25rem 0.4rem;
+  padding-left: 1.1rem;
+}
+
+.timeline-item {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -1.35rem;
+  top: 0.4rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--archive-oxblood);
+  border: 2px solid var(--archive-paper);
+  box-shadow: 0 0 0 1px var(--archive-gold);
+}
+
+.timeline-item .year {
+  font-weight: 700;
+  color: var(--archive-prussian);
+}
+
+.person-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 720px) {
+  .person-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.person-card {
+  border: 1px solid var(--archive-rule);
+  background: #faf3e3;
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+}
+
+.person-card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+}
+
+.relation-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--archive-rule);
+  border-radius: 999px;
+  padding: 0.15rem 0.45rem;
+  margin: 0.15rem 0.2rem 0.15rem 0;
+  color: var(--archive-prussian);
+}
+
+.status-tag {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--archive-oxblood);
+}
+
+.solvay-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: 0.45rem;
+  margin: 1rem 0;
+}
+
+.solvay-seat {
+  border: 1px solid var(--archive-rule);
+  background: #fffaf0;
+  border-radius: 0.35rem;
+  padding: 0.45rem;
+  font-size: 0.8rem;
+  min-height: 4.5rem;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+}
+
+.solvay-seat:hover,
+.solvay-seat[aria-pressed='true'] {
+  border-color: var(--archive-oxblood);
+  background: #f5e6c8;
+}
+
+.nobel-sim {
+  border: 1px solid var(--archive-rule);
+  padding: 1rem;
+  border-radius: var(--radius);
+  background: #faf3e3;
+}
+
+.nobel-sim .options {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0.75rem 0;
+}
+
+.running-title {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--archive-gold);
+  margin-bottom: 0.35rem;
+}

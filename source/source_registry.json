@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "primarySource": {
+    "id": "brown-dwarkesh-gr-transcript",
+    "type": "youtube-transcript",
+    "title": "Adam Brown explains general relativity and black holes",
+    "videoUrl": "https://www.youtube.com/watch?v=QbdbAhaJoCQ&t=13s",
+    "rawPath": "transcript.txt",
+    "normalizedPath": "source/transcript.normalized.txt",
+    "rawSha256": "53ee28438067a11259a1b533e479a3eb7363ee4b48d8c589396376b5b21bf9d9",
+    "normalizedSha256": "db857634938caad9e97d4db691c2239be793630f2a9b46e58f3a4c37320dc7c3",
+    "encoding": "UTF-8",
+    "normalizedLineEndings": "LF",
+    "lineCount": 1542,
+    "wordCount": 17069,
+    "timestampFragmentCount": 744,
+    "firstTeachingTimestamp": "0:00",
+    "lastTeachingTimestamp": "1:38:19",
+    "chapters": [
+      {
+        "id": "chapter-01",
+        "timestamp": "00:00:00",
+        "seconds": 0,
+        "title": "The coincidence that led Einstein to general relativity"
+      },
+      {
+        "id": "chapter-02",
+        "timestamp": "00:16:42",
+        "seconds": 1002,
+        "title": "Gravity is a consequence of curved spacetime, not a force"
+      },
+      {
+        "id": "chapter-03",
+        "timestamp": "00:31:46",
+        "seconds": 1906,
+        "title": "Why black holes prevent unlimited energy extraction"
+      },
+      {
+        "id": "chapter-04",
+        "timestamp": "00:47:12",
+        "seconds": 2832,
+        "title": "Black holes are the ultimate power plants"
+      },
+      {
+        "id": "chapter-05",
+        "timestamp": "01:13:50",
+        "seconds": 4430,
+        "title": "What falling into a black hole would actually feel like"
+      },
+      {
+        "id": "chapter-06",
+        "timestamp": "01:18:51",
+        "seconds": 4731,
+        "title": "The three ways we know black holes are real"
+      },
+      {
+        "id": "chapter-07",
+        "timestamp": "01:24:21",
+        "seconds": 5061,
+        "title": "The first time we saw gravity bend light"
+      },
+      {
+        "id": "chapter-08",
+        "timestamp": "01:29:33",
+        "seconds": 5373,
+        "title": "How far can AI get without experimental evidence?"
+      }
+    ]
+  },
+  "derivedArtifacts": [
+    {
+      "id": "normalized-transcript",
+      "path": "source/transcript.normalized.txt",
+      "derivedFrom": "brown-dwarkesh-gr-transcript",
+      "transformation": "UTF-8 decode, NFC normalization, LF line endings, terminal newline"
+    },
+    {
+      "id": "timestamp-fragments",
+      "path": "source/timestamp_fragments.json",
+      "derivedFrom": "normalized-transcript",
+      "transformation": "Exact timestamp-line parsing with source line spans"
+    },
+    {
+      "id": "argument-units",
+      "path": "source/argument_units.json",
+      "derivedFrom": "timestamp-fragments",
+      "transformation": "Human-curated grouping into complete lesson arguments",
+      "recordCount": 46
+    },
+    {
+      "id": "scientific-claims",
+      "path": "source/claims.json",
+      "derivedFrom": "argument-units",
+      "transformation": "Scientific claim extraction with provenance and caveats",
+      "recordCount": 55
+    },
+    {
+      "id": "board-reconstructions",
+      "path": "source/board_reconstructions.json",
+      "derivedFrom": "argument-units",
+      "transformation": "Likely board-state reconstruction with transcript clues and confidence",
+      "recordCount": 18
+    },
+    {
+      "id": "lesson-1-vertical-slice",
+      "path": "source/lesson1_vertical_slice.md",
+      "derivedFrom": [
+        "argument-units",
+        "scientific-claims",
+        "board-reconstructions"
+      ],
+      "transformation": "Implementation brief for the first learner-facing slice"
+    }
+  ],
+  "generatedBy": "scripts/prepare_source.js"
+}

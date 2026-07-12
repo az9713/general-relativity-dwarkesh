@@ -1,0 +1,627 @@
+[
+  {
+    "id": "b01-fma",
+    "lessonId": "lesson-1",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u03-newton-second-law"
+    ],
+    "timestampStart": "4:41",
+    "timestampEnd": "5:45",
+    "transcriptClues": [
+      {
+        "term": "ma=F",
+        "fragmentId": "fragment-0037",
+        "timestamp": "4:41",
+        "excerpt": "a, caused by a force is given by the formula ma=F. If you have a force F, it'll cause an acceleration"
+      },
+      {
+        "term": "mass tells you how much",
+        "fragmentId": "fragment-0038",
+        "timestamp": "4:50",
+        "excerpt": "on an object given by a, where the mass tells you how much an object resists being accelerated."
+      }
+    ],
+    "likelyBoardContent": "Newton’s second law with force, acceleration, and inertial mass labeled.",
+    "teachingRedraw": "Clean equation card plus force-to-acceleration diagram.",
+    "uncertainty": "Exact placement and whether Brown wrote F=ma or ma=F are uncertain.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b02-newton-gravity",
+    "lessonId": "lesson-1",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u04-newton-gravity-tension"
+    ],
+    "timestampStart": "5:56",
+    "timestampEnd": "7:20",
+    "transcriptClues": [
+      {
+        "term": "Newton's constant",
+        "fragmentId": "fragment-0048",
+        "timestamp": "6:19",
+        "excerpt": "what's called Newton's constant—just some constant of nature—times the mass of one body times the mass of the other body—the mass of the sun times the mass of the Earth—divided"
+      },
+      {
+        "term": "distance between them squared",
+        "fragmentId": "fragment-0049",
+        "timestamp": "6:29",
+        "excerpt": "by the distance between them squared. It's the famous inverse-square law."
+      }
+    ],
+    "likelyBoardContent": "Inverse-square gravitational force between source and test masses, including attraction.",
+    "teachingRedraw": "Two-body diagram with labeled r and equation.",
+    "uncertainty": "Symbol names and sign convention may differ from the original.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b03-coulomb-comparison",
+    "lessonId": "lesson-1",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u05-electromagnetic-precedent",
+      "u06-attraction-and-force-carrier"
+    ],
+    "timestampStart": "7:32",
+    "timestampEnd": "12:48",
+    "transcriptClues": [
+      {
+        "term": "electrostatic",
+        "fragmentId": "fragment-0063",
+        "timestamp": "8:24",
+        "excerpt": "the other force of nature, the electric force. There's also the electrostatic force law—not"
+      },
+      {
+        "term": "minus sign",
+        "fragmentId": "fragment-0086",
+        "timestamp": "11:22",
+        "excerpt": "There is a big difference, which is that here it is a minus sign, and here it is a plus sign."
+      },
+      {
+        "term": "plus sign",
+        "fragmentId": "fragment-0086",
+        "timestamp": "11:22",
+        "excerpt": "There is a big difference, which is that here it is a minus sign, and here it is a plus sign."
+      }
+    ],
+    "likelyBoardContent": "Gravity and electrostatics side by side to compare inverse-square structure and signs.",
+    "teachingRedraw": "Aligned mass/charge and attraction/repulsion comparison.",
+    "uncertainty": "Constant notation and ordering are unknown.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b04-mass-equality-cancellation",
+    "lessonId": "lesson-1",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u07-mass-as-gravitational-charge",
+      "u08-mass-equality-and-free-fall"
+    ],
+    "timestampStart": "12:58",
+    "timestampEnd": "16:36",
+    "transcriptClues": [
+      {
+        "term": "inertial mass",
+        "fragmentId": "fragment-0102",
+        "timestamp": "13:36",
+        "excerpt": "and it's what is resisting being accelerated. This is sometimes called the inertial mass."
+      },
+      {
+        "term": "gravitational mass",
+        "fragmentId": "fragment-0108",
+        "timestamp": "14:20",
+        "excerpt": "that's telling you how much you're pulled along. It's the same mass. So this is sometimes called the gravitational mass, and this is sometimes called the inertial mass."
+      },
+      {
+        "term": "same mass",
+        "fragmentId": "fragment-0108",
+        "timestamp": "14:20",
+        "excerpt": "that's telling you how much you're pulled along. It's the same mass. So this is sometimes called the gravitational mass, and this is sometimes called the inertial mass."
+      }
+    ],
+    "likelyBoardContent": "Identify m_i and m_g, set them equal, and cancel test-body mass.",
+    "teachingRedraw": "Three-step derivation with non-color-only cancellation marks.",
+    "uncertainty": "Brown may have used one symbol m rather than subscripts.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b05-rotating-bucket",
+    "lessonId": "lesson-2",
+    "provenanceType": "board-reconstruction",
+    "confidence": "medium",
+    "argumentUnitIds": [
+      "u09-rotating-bucket",
+      "u10-inertial-charge-and-einstein-leap"
+    ],
+    "timestampStart": "16:42",
+    "timestampEnd": "20:46",
+    "transcriptClues": [
+      {
+        "term": "bucket",
+        "fragmentId": "fragment-0126",
+        "timestamp": "16:42",
+        "excerpt": "So here's a bucket. Here's some water filling the bucket."
+      },
+      {
+        "term": "centrifugal force",
+        "fragmentId": "fragment-0136",
+        "timestamp": "18:13",
+        "excerpt": "explanation for why the water doesn't fall out of the bucket, and that is the centrifugal force. From the perspective of somebody moving along with the bucket, there is a force pushing them"
+      },
+      {
+        "term": "pointing positively outwards",
+        "fragmentId": "fragment-0140",
+        "timestamp": "18:53",
+        "excerpt": "round in, pointing positively outwards. So this is the centrifugal force that pins"
+      }
+    ],
+    "likelyBoardContent": "Bucket/circle diagram comparing inertial and co-rotating descriptions.",
+    "teachingRedraw": "Paired-frame diagram with tangent velocity and inward acceleration.",
+    "uncertainty": "Transcript does not fully specify the drawing geometry.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b06-free-fall-and-support",
+    "lessonId": "lesson-2",
+    "provenanceType": "board-reconstruction",
+    "confidence": "medium",
+    "argumentUnitIds": [
+      "u11-free-fall-removes-gravity",
+      "u12-redefine-straight-motion"
+    ],
+    "timestampStart": "20:55",
+    "timestampEnd": "23:10",
+    "transcriptClues": [
+      {
+        "term": "astronauts",
+        "fragmentId": "fragment-0162",
+        "timestamp": "21:49",
+        "excerpt": "So in order for this to be true, we'd have to say that astronauts who are free-floating and"
+      },
+      {
+        "term": "free-floating",
+        "fragmentId": "fragment-0162",
+        "timestamp": "21:49",
+        "excerpt": "So in order for this to be true, we'd have to say that astronauts who are free-floating and"
+      },
+      {
+        "term": "pushing you into your chair",
+        "fragmentId": "fragment-0164",
+        "timestamp": "22:03",
+        "excerpt": "there, seemingly not moving, are experiencing the force of gravity pushing you into your chair."
+      }
+    ],
+    "likelyBoardContent": "Compare free-floating astronaut with supported observer on Earth.",
+    "teachingRedraw": "Elevator/rocket comparison with scale readings and tidal caveat.",
+    "uncertainty": "The elevator may have been spoken rather than drawn here.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b07-chalk-worldlines",
+    "lessonId": "lesson-3",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u13-chalk-worldlines"
+    ],
+    "timestampStart": "23:23",
+    "timestampEnd": "24:41",
+    "transcriptClues": [
+      {
+        "term": "piece of chalk",
+        "fragmentId": "fragment-0176",
+        "timestamp": "23:44",
+        "excerpt": "you have to be moving along a not straight line. So that's you. By contrast, this piece of chalk,"
+      },
+      {
+        "term": "this has to be straight",
+        "fragmentId": "fragment-0179",
+        "timestamp": "24:14",
+        "excerpt": "inertial force, this has to be straight. Now, certainly the way I've plotted it,"
+      },
+      {
+        "term": "looks straight",
+        "fragmentId": "fragment-0180",
+        "timestamp": "24:20",
+        "excerpt": "this looks straight and that one does not. So if gravity is to be an inertial force, we have to be wrong about what is a straight line and what is not a straight line."
+      }
+    ],
+    "likelyBoardContent": "Spacetime axes with held-object and thrown/falling chalk paths.",
+    "teachingRedraw": "Time-up diagram separating coordinate appearance from geodesic interpretation.",
+    "uncertainty": "Axis labels and exact curves are not fully spoken.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b08-map-globe-geodesic",
+    "lessonId": "lesson-3",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u14-map-and-great-circle",
+      "u15-geodesics-and-curvature"
+    ],
+    "timestampStart": "24:47",
+    "timestampEnd": "28:22",
+    "transcriptClues": [
+      {
+        "term": "San Francisco",
+        "fragmentId": "fragment-0183",
+        "timestamp": "24:47",
+        "excerpt": "flying from San Francisco to London. Now, I'm not good at drawing the Earth,"
+      },
+      {
+        "term": "London",
+        "fragmentId": "fragment-0183",
+        "timestamp": "24:47",
+        "excerpt": "flying from San Francisco to London. Now, I'm not good at drawing the Earth,"
+      },
+      {
+        "term": "Greenland",
+        "fragmentId": "fragment-0185",
+        "timestamp": "25:01",
+        "excerpt": "Here is Greenland, coming in from the North Pole. And here is England. Here's London."
+      },
+      {
+        "term": "rhumb line",
+        "fragmentId": "fragment-0192",
+        "timestamp": "25:52",
+        "excerpt": "This rhumb line, it's sometimes called, is not straight, and would certainly not be the"
+      }
+    ],
+    "likelyBoardContent": "Flat map and globe showing a curved-looking great-circle route.",
+    "teachingRedraw": "Synchronized map/globe SVG with route comparison.",
+    "uncertainty": "Brown’s hand-drawn continents and projection are unrecoverable.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b09-einstein-field-equation",
+    "lessonId": "lesson-4",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u17-field-equation-interpretation"
+    ],
+    "timestampStart": "29:23",
+    "timestampEnd": "30:24",
+    "transcriptClues": [
+      {
+        "term": "T_(μν)",
+        "fragmentId": "fragment-0225",
+        "timestamp": "30:05",
+        "excerpt": "And then this quantity T_(μν). T_(μν) is like a relativistic"
+      },
+      {
+        "term": "Newton's constant",
+        "fragmentId": "fragment-0224",
+        "timestamp": "29:59",
+        "excerpt": "friend Newton's constant, π an even older friend, and the speed of light."
+      },
+      {
+        "term": "speed of light",
+        "fragmentId": "fragment-0224",
+        "timestamp": "29:59",
+        "excerpt": "friend Newton's constant, π an even older friend, and the speed of light."
+      }
+    ],
+    "likelyBoardContent": "Einstein field equation with geometry left and stress-energy right.",
+    "teachingRedraw": "Semantic plate for G_μν = (8πG/c⁴)T_μν.",
+    "uncertainty": "Transcript supports the teaching form without a cosmological term.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b10-escape-and-schwarzschild-radius",
+    "lessonId": "lesson-5",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u20-escape-speed-and-radius"
+    ],
+    "timestampStart": "34:06",
+    "timestampEnd": "36:17",
+    "transcriptClues": [
+      {
+        "term": "escape velocity",
+        "fragmentId": "fragment-0260",
+        "timestamp": "34:25",
+        "excerpt": "a certain velocity, the escape velocity. You need to shoot it fast enough if you"
+      },
+      {
+        "term": "2GM",
+        "fragmentId": "fragment-0267",
+        "timestamp": "35:21",
+        "excerpt": "Just putting the velocity equal to the speed of light, this gives a critical radius of 2GM—the"
+      },
+      {
+        "term": "divided by c²",
+        "fragmentId": "fragment-0268",
+        "timestamp": "35:29",
+        "excerpt": "mass of the object cancels—divided by c². So that's somewhat suggestive. If you had"
+      }
+    ],
+    "likelyBoardContent": "Escape-energy relation leading to v_esc and r_s=2GM/c².",
+    "teachingRedraw": "Visually separate the Newtonian clue from the GR interpretation.",
+    "uncertainty": "Intermediate algebra is not fully transcribed.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b11-brick-pulley",
+    "lessonId": "lesson-5",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u21-lowering-brick-energy",
+      "u23-over-unity-paradox"
+    ],
+    "timestampStart": "36:27",
+    "timestampEnd": "43:52",
+    "transcriptClues": [
+      {
+        "term": "brick",
+        "fragmentId": "fragment-0276",
+        "timestamp": "36:27",
+        "excerpt": "towards a central mass. Let's start off perhaps with the Earth. Here it is. We're going to start off a long way away from the Earth, with a brick of mass m."
+      },
+      {
+        "term": "pulley system",
+        "fragmentId": "fragment-0277",
+        "timestamp": "36:39",
+        "excerpt": "I'm going to take this brick, attach it to a pulley system, and then slowly lower the brick down towards the surface of the Earth and deposit it with zero"
+      },
+      {
+        "term": "slowly lower",
+        "fragmentId": "fragment-0277",
+        "timestamp": "36:39",
+        "excerpt": "I'm going to take this brick, attach it to a pulley system, and then slowly lower the brick down towards the surface of the Earth and deposit it with zero"
+      }
+    ],
+    "likelyBoardContent": "Central mass, brick m, rope/pulley, radius r, and distant work reservoir.",
+    "teachingRedraw": "Energy-flow schematic paired with equations.",
+    "uncertainty": "Mechanical layout and pulley placement are inferred.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b12-collapse-before-surplus",
+    "lessonId": "lesson-5",
+    "provenanceType": "board-reconstruction",
+    "confidence": "medium",
+    "argumentUnitIds": [
+      "u24-collapse-blocks-the-machine"
+    ],
+    "timestampStart": "44:00",
+    "timestampEnd": "47:01",
+    "transcriptClues": [
+      {
+        "term": "formed a black hole",
+        "fragmentId": "fragment-0343",
+        "timestamp": "45:38",
+        "excerpt": "you try to get within this radius, that in fact you cannot slowly lower the brick down towards the surface because you've formed a black hole. The gravitational force becomes infinite at a"
+      }
+    ],
+    "likelyBoardContent": "Compactness sequence showing horizon formation before the over-unity cycle.",
+    "teachingRedraw": "Before/after causal-boundary diagram.",
+    "uncertainty": "Transcript does not specify a complete collapse drawing.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b13-static-acceleration",
+    "lessonId": "lesson-6",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u25-relativistic-force-correction",
+      "u26-static-versus-orbiting"
+    ],
+    "timestampStart": "47:12",
+    "timestampEnd": "55:27",
+    "transcriptClues": [
+      {
+        "term": "everything we've written down on the board",
+        "fragmentId": "fragment-0355",
+        "timestamp": "47:12",
+        "excerpt": "So far, everything we've written down on the board is Newtonian. It's just Newtonian, and you start plugging in the speed of light, and you start getting confused."
+      },
+      {
+        "term": "large r",
+        "fragmentId": "fragment-0374",
+        "timestamp": "50:04",
+        "excerpt": "and then you take the square root. So you don't really notice it, but you can Taylor-expand this at large r, and you find that you get corrections."
+      },
+      {
+        "term": "Newton's force law",
+        "fragmentId": "fragment-0372",
+        "timestamp": "49:44",
+        "excerpt": "this here is essentially one. r is very big, and you get Newton's force law back again."
+      }
+    ],
+    "likelyBoardContent": "Relativistic static-force expression and its Newtonian large-r limit.",
+    "teachingRedraw": "Equation plot with domain and hovering/free-fall distinction.",
+    "uncertainty": "Exact notation needs formula verification before rendering.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b14-static-time-factor",
+    "lessonId": "lesson-6",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u27-gravitational-time-dilation"
+    ],
+    "timestampStart": "55:34",
+    "timestampEnd": "58:54",
+    "transcriptClues": [
+      {
+        "term": "gravitational time dilation",
+        "fragmentId": "fragment-0417",
+        "timestamp": "55:34",
+        "excerpt": "Formula number two asks about gravitational time dilation. Let's again imagine that you're sitting here, Dwarkesh sitting here some radius"
+      },
+      {
+        "term": "time interval",
+        "fragmentId": "fragment-0423",
+        "timestamp": "56:29",
+        "excerpt": "is closer to the black hole—run than mine? It says that the time interval, as measured by"
+      },
+      {
+        "term": "square root",
+        "fragmentId": "fragment-0425",
+        "timestamp": "56:47",
+        "excerpt": "times this exact same square root factor that's showing up all over the place: the square root of 1-2GM/(rc²). This factor here is less than one."
+      }
+    ],
+    "likelyBoardContent": "Static Schwarzschild time-dilation factor comparing near and distant clocks.",
+    "teachingRedraw": "Clock pair, pulse train, and dτ/dt equation.",
+    "uncertainty": "Numerator/denominator arrangement must match the spoken comparison.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b15-redshift-pulses",
+    "lessonId": "lesson-6",
+    "provenanceType": "board-reconstruction",
+    "confidence": "medium",
+    "argumentUnitIds": [
+      "u28-redshift-from-pulse-counting"
+    ],
+    "timestampStart": "59:02",
+    "timestampEnd": "1:03:03",
+    "transcriptClues": [
+      {
+        "term": "lower frequency",
+        "fragmentId": "fragment-0457",
+        "timestamp": "1:01:11",
+        "excerpt": "it reaches me, I'm going to think that it is lower frequency than you thought"
+      },
+      {
+        "term": "redshifted",
+        "fragmentId": "fragment-0460",
+        "timestamp": "1:01:35",
+        "excerpt": "The word that we use is redshift, gravitational redshift. It's redshifted: lower frequency, and therefore less energy."
+      }
+    ],
+    "likelyBoardContent": "Wave crests emitted locally and received with larger spacing far away.",
+    "teachingRedraw": "Linked clock, pulse, and wavelength diagram.",
+    "uncertainty": "Original board may have used only an equation.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b16-extraction-formula",
+    "lessonId": "lesson-6",
+    "provenanceType": "board-reconstruction",
+    "confidence": "high",
+    "argumentUnitIds": [
+      "u29-energy-at-infinity",
+      "u30-exact-extraction-fraction"
+    ],
+    "timestampStart": "1:03:10",
+    "timestampEnd": "1:08:52",
+    "transcriptClues": [
+      {
+        "term": "how much energy",
+        "fragmentId": "fragment-0473",
+        "timestamp": "1:03:10",
+        "excerpt": "How much energy, as measured by me a long way away from the black hole, is that worth to me?"
+      },
+      {
+        "term": "exactly this formula",
+        "fragmentId": "fragment-0491",
+        "timestamp": "1:05:32",
+        "excerpt": "calculate exactly this formula: how much energy have I extracted from the"
+      },
+      {
+        "term": "event horizon",
+        "fragmentId": "fragment-0509",
+        "timestamp": "1:08:00",
+        "excerpt": "But once I get closer and closer to the black hole, they stop being correct. What I see is that as r approaches the black hole event horizon,"
+      }
+    ],
+    "likelyBoardContent": "Energy at infinity and extractable fraction as functions of radius.",
+    "teachingRedraw": "Graph with Newtonian expansion and horizon limit.",
+    "uncertainty": "Final notation needs formula verification in Lesson 6.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b17-two-observer-horizon",
+    "lessonId": "lesson-6",
+    "provenanceType": "board-reconstruction",
+    "confidence": "medium",
+    "argumentUnitIds": [
+      "u33-two-observer-question",
+      "u34-distant-view-of-infall",
+      "u35-infaller-horizon-and-tides"
+    ],
+    "timestampStart": "1:13:50",
+    "timestampEnd": "1:18:48",
+    "transcriptClues": [
+      {
+        "term": "two different perspectives",
+        "fragmentId": "fragment-0556",
+        "timestamp": "1:14:07",
+        "excerpt": "two different perspectives you could take. One is the perspective of me watching you falling into the black hole. The other is the perspective"
+      },
+      {
+        "term": "never see you cross",
+        "fragmentId": "fragment-0569",
+        "timestamp": "1:15:36",
+        "excerpt": "starts running slower and slower and slower. In fact, if you do the appropriate integral, I never see you cross the event horizon. I just see you getting closer and closer"
+      },
+      {
+        "term": "sail across",
+        "fragmentId": "fragment-0579",
+        "timestamp": "1:16:51",
+        "excerpt": "You just sail across the event horizon totally as normal. The event horizon is not a particularly violent place for you."
+      }
+    ],
+    "likelyBoardContent": "Paired distant-observer and infaller views of one crossing.",
+    "teachingRedraw": "Three-panel signals/spacetime/proper-time diagram.",
+    "uncertainty": "Pedagogical synthesis rather than one verified board image.",
+    "reviewStatus": "mapped"
+  },
+  {
+    "id": "b18-evidence-triptych",
+    "lessonId": "lesson-7",
+    "provenanceType": "board-reconstruction",
+    "confidence": "medium",
+    "argumentUnitIds": [
+      "u37-sagittarius-orbits",
+      "u38-gravitational-wave-evidence",
+      "u39-eht-evidence",
+      "u41-light-bending-prediction"
+    ],
+    "timestampStart": "1:20:10",
+    "timestampEnd": "1:26:05",
+    "transcriptClues": [
+      {
+        "term": "stars around it",
+        "fragmentId": "fragment-0608",
+        "timestamp": "1:20:31",
+        "excerpt": "because it's black. What you can see is the stars around it. If you watch these stars over the course of decades—and we now have a number of decades of"
+      },
+      {
+        "term": "LIGO",
+        "fragmentId": "fragment-0616",
+        "timestamp": "1:21:34",
+        "excerpt": "LIGO is this huge laser interferometer that we built at a number of different sites, that is"
+      },
+      {
+        "term": "radio emissions",
+        "fragmentId": "fragment-0627",
+        "timestamp": "1:23:08",
+        "excerpt": "radio emissions of matter falling into these black holes, which shines super brightly as it does so."
+      },
+      {
+        "term": "light",
+        "fragmentId": "fragment-0622",
+        "timestamp": "1:22:21",
+        "excerpt": "Two black holes, both of which weighed about 30 times as much as the sun, on the other side of the universe, about 1.6 billion light-years away. That collision happened about 1.6 billion years"
+      }
+    ],
+    "likelyBoardContent": "Evidence panels for orbits, wave strain, near-horizon emission, and bent light.",
+    "teachingRedraw": "Four evidence cards distinguishing observation from inference.",
+    "uncertainty": "Some visuals may have been production inserts, not board work.",
+    "reviewStatus": "mapped"
+  }
+]

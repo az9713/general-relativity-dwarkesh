@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.ignore/
+mcps/
+.agents/
+.codex/
+ai/
+audit-current/
+design-qa.md
+*.log

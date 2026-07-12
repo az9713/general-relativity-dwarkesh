@@ -1,0 +1,13 @@
+front,back
+"Inertial mass mᵢ","Resistance to acceleration in F = mᵢ a."
+"Gravitational mass m_g","Coupling “charge” in Newtonian gravity."
+"Why free-fall a is universal (Newton + equality)","With mᵢ = m_g, a = GM/r² independent of test mass."
+"Equivalence principle (local)","Local free fall removes gravity; equivalence fails globally via tides."
+"Geodesic (pedagogical)","Straightest available path given the geometry; free fall follows geodesics."
+"Einstein equation (words)","Geometry side Gμν related to stress-energy Tμν."
+"Schwarzschild radius","r_s = 2GM/c² — horizon scale for Schwarzschild BH."
+"Event horizon","Causal boundary, not a material surface."
+"Static redshift factor","√(1 − r_s/r) for static observers with r > r_s."
+"Horizon vs singularity","Distinct: causal boundary vs classical geometric breakdown."
+"EHT ring means…","Lensed emission/shadow structure — not a photo of a hard horizon shell."
+"Weak-field light deflection","α ≈ 4GM/(b c²) — twice naive Newtonian light corpuscle value."

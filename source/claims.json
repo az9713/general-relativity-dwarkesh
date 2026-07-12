@@ -1,0 +1,721 @@
+[
+  {
+    "id": "c001",
+    "lessonId": "lesson-1",
+    "provenanceType": "transcript",
+    "statement": "Special relativity treats the finite speed of light as a fundamental constraint that gravity must respect.",
+    "timestampStart": "2:07",
+    "timestampEnd": "4:26",
+    "argumentUnitIds": [
+      "u02-special-relativity-constraint"
+    ],
+    "caveat": "Causality language is supplemental when used.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c002",
+    "lessonId": "lesson-1",
+    "provenanceType": "transcript",
+    "statement": "In Newtonian mechanics, inertial mass measures resistance to acceleration through F = ma.",
+    "timestampStart": "4:41",
+    "timestampEnd": "5:45",
+    "argumentUnitIds": [
+      "u03-newton-second-law"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c003",
+    "lessonId": "lesson-1",
+    "provenanceType": "transcript",
+    "statement": "Newtonian gravity uses an inverse-square force proportional to the two masses and appears instantaneous.",
+    "timestampStart": "5:56",
+    "timestampEnd": "7:20",
+    "argumentUnitIds": [
+      "u04-newton-gravity-tension"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c004",
+    "lessonId": "lesson-1",
+    "provenanceType": "transcript",
+    "statement": "Coulomb’s inverse-square law is a static limit of Maxwellian electromagnetism, which is compatible with finite propagation speed.",
+    "timestampStart": "7:32",
+    "timestampEnd": "11:15",
+    "argumentUnitIds": [
+      "u05-electromagnetic-precedent"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c005",
+    "lessonId": "lesson-1",
+    "provenanceType": "transcript",
+    "statement": "Gravity cannot simply copy electromagnetism because like masses attract while like charges repel.",
+    "timestampStart": "11:22",
+    "timestampEnd": "12:48",
+    "argumentUnitIds": [
+      "u06-attraction-and-force-carrier"
+    ],
+    "caveat": "Spin-language is optional and supplemental.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c006",
+    "lessonId": "lesson-1",
+    "provenanceType": "transcript",
+    "statement": "Mass plays the role of gravitational charge, unlike electric charge, which is independent of inertial mass.",
+    "timestampStart": "12:58",
+    "timestampEnd": "14:01",
+    "argumentUnitIds": [
+      "u07-mass-as-gravitational-charge"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c007",
+    "lessonId": "lesson-1",
+    "provenanceType": "transcript",
+    "statement": "Gravitational mass and inertial mass are experimentally equal to very high precision.",
+    "timestampStart": "14:07",
+    "timestampEnd": "16:36",
+    "argumentUnitIds": [
+      "u08-mass-equality-and-free-fall"
+    ],
+    "caveat": "Current precision requires an external citation later.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c008",
+    "lessonId": "lesson-1",
+    "provenanceType": "transcript",
+    "statement": "When gravitational and inertial mass are equal, the test-body mass cancels and gravitational acceleration is universal.",
+    "timestampStart": "14:07",
+    "timestampEnd": "16:36",
+    "argumentUnitIds": [
+      "u08-mass-equality-and-free-fall"
+    ],
+    "caveat": "Assumes the Newtonian test-body setup.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c009",
+    "lessonId": "lesson-1",
+    "provenanceType": "gr-supplement",
+    "statement": "The weak equivalence principle says freely falling test bodies share trajectories when nongravitational effects and self-gravity are negligible.",
+    "timestampStart": "14:07",
+    "timestampEnd": "16:36",
+    "argumentUnitIds": [
+      "u08-mass-equality-and-free-fall"
+    ],
+    "caveat": "States the scope more precisely than the slogan.",
+    "reviewStatus": "requires-external-citation"
+  },
+  {
+    "id": "c010",
+    "lessonId": "lesson-2",
+    "provenanceType": "transcript",
+    "statement": "Centrifugal force appears in a rotating description but not in the outside inertial description.",
+    "timestampStart": "16:42",
+    "timestampEnd": "19:08",
+    "argumentUnitIds": [
+      "u09-rotating-bucket"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c011",
+    "lessonId": "lesson-2",
+    "provenanceType": "transcript",
+    "statement": "Inertial forces necessarily scale with inertial mass.",
+    "timestampStart": "19:19",
+    "timestampEnd": "20:46",
+    "argumentUnitIds": [
+      "u10-inertial-charge-and-einstein-leap"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c012",
+    "lessonId": "lesson-2",
+    "provenanceType": "transcript",
+    "statement": "The equality of inertial and gravitational mass permits Einstein’s hypothesis that gravity is an inertial effect.",
+    "timestampStart": "19:19",
+    "timestampEnd": "20:46",
+    "argumentUnitIds": [
+      "u10-inertial-charge-and-einstein-leap"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c013",
+    "lessonId": "lesson-2",
+    "provenanceType": "transcript",
+    "statement": "A freely falling astronaut feels weightless, while a person supported on Earth feels the support force.",
+    "timestampStart": "20:55",
+    "timestampEnd": "21:56",
+    "argumentUnitIds": [
+      "u11-free-fall-removes-gravity"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c014",
+    "lessonId": "lesson-2",
+    "provenanceType": "gr-supplement",
+    "statement": "Gravity can be transformed away only locally; tidal relative acceleration remains across an extended region.",
+    "timestampStart": "20:55",
+    "timestampEnd": "21:56",
+    "argumentUnitIds": [
+      "u11-free-fall-removes-gravity"
+    ],
+    "caveat": "Required limitation of the elevator analogy.",
+    "reviewStatus": "requires-external-citation"
+  },
+  {
+    "id": "c015",
+    "lessonId": "lesson-2",
+    "provenanceType": "transcript",
+    "statement": "Treating gravity as inertial requires revising which spacetime paths count as straight.",
+    "timestampStart": "22:03",
+    "timestampEnd": "23:10",
+    "argumentUnitIds": [
+      "u12-redefine-straight-motion"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c016",
+    "lessonId": "lesson-3",
+    "provenanceType": "transcript",
+    "statement": "A supported object and a freely falling object trace different paths through a spacetime plot.",
+    "timestampStart": "23:23",
+    "timestampEnd": "24:41",
+    "argumentUnitIds": [
+      "u13-chalk-worldlines"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c017",
+    "lessonId": "lesson-3",
+    "provenanceType": "transcript",
+    "statement": "A great-circle route can appear curved on a flat map while being the straightest route on the globe.",
+    "timestampStart": "24:47",
+    "timestampEnd": "26:28",
+    "argumentUnitIds": [
+      "u14-map-and-great-circle"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c018",
+    "lessonId": "lesson-3",
+    "provenanceType": "transcript",
+    "statement": "Free-falling objects follow geodesics in curved spacetime.",
+    "timestampStart": "26:39",
+    "timestampEnd": "28:22",
+    "argumentUnitIds": [
+      "u15-geodesics-and-curvature"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c019",
+    "lessonId": "lesson-3",
+    "provenanceType": "gr-supplement",
+    "statement": "A geodesic is locally extremal or straightest motion, not always a globally shortest path.",
+    "timestampStart": "26:39",
+    "timestampEnd": "28:22",
+    "argumentUnitIds": [
+      "u15-geodesics-and-curvature"
+    ],
+    "caveat": "Prevents overextending the globe analogy.",
+    "reviewStatus": "requires-external-citation"
+  },
+  {
+    "id": "c020",
+    "lessonId": "lesson-3",
+    "provenanceType": "gr-supplement",
+    "statement": "Curvature can be detected intrinsically without embedding spacetime in a higher dimension.",
+    "timestampStart": "26:39",
+    "timestampEnd": "28:22",
+    "argumentUnitIds": [
+      "u15-geodesics-and-curvature"
+    ],
+    "caveat": "Corrects rubber-sheet intuition.",
+    "reviewStatus": "requires-external-citation"
+  },
+  {
+    "id": "c021",
+    "lessonId": "lesson-4",
+    "provenanceType": "transcript",
+    "statement": "Einstein needed years to find a mathematical characterization of curved spacetime consistent with his physical insight.",
+    "timestampStart": "28:33",
+    "timestampEnd": "29:02",
+    "argumentUnitIds": [
+      "u16-from-insight-to-equations"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c022",
+    "lessonId": "lesson-4",
+    "provenanceType": "transcript",
+    "statement": "The left side of Einstein’s field equation characterizes spacetime curvature and the right side characterizes matter and energy.",
+    "timestampStart": "29:23",
+    "timestampEnd": "30:24",
+    "argumentUnitIds": [
+      "u17-field-equation-interpretation"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c023",
+    "lessonId": "lesson-4",
+    "provenanceType": "transcript",
+    "statement": "The stress-energy tensor generalizes the Newtonian mass source to relativistic matter and energy.",
+    "timestampStart": "29:23",
+    "timestampEnd": "30:24",
+    "argumentUnitIds": [
+      "u17-field-equation-interpretation"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c024",
+    "lessonId": "lesson-4",
+    "provenanceType": "gr-supplement",
+    "statement": "Stress-energy includes energy density, momentum density, pressure, and stress, not only rest mass.",
+    "timestampStart": "29:23",
+    "timestampEnd": "30:24",
+    "argumentUnitIds": [
+      "u17-field-equation-interpretation"
+    ],
+    "caveat": "Adds components Brown does not enumerate fully.",
+    "reviewStatus": "requires-external-citation"
+  },
+  {
+    "id": "c025",
+    "lessonId": "lesson-4",
+    "provenanceType": "transcript",
+    "statement": "Matter tells spacetime how to curve, while curved spacetime determines free motion.",
+    "timestampStart": "30:31",
+    "timestampEnd": "31:42",
+    "argumentUnitIds": [
+      "u18-gr-slogan-and-reach"
+    ],
+    "caveat": "Interpretive slogan, not a literal two-step time process.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c026",
+    "lessonId": "lesson-5",
+    "provenanceType": "transcript",
+    "statement": "The Schwarzschild solution exactly describes spacetime outside a spherically symmetric central mass.",
+    "timestampStart": "31:47",
+    "timestampEnd": "33:58",
+    "argumentUnitIds": [
+      "u19-schwarzschild-solution"
+    ],
+    "caveat": "State the vacuum exterior and symmetry assumptions.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c027",
+    "lessonId": "lesson-5",
+    "provenanceType": "transcript",
+    "statement": "Setting Newtonian escape velocity equal to light speed produces the radius 2GM/c².",
+    "timestampStart": "34:06",
+    "timestampEnd": "36:17",
+    "argumentUnitIds": [
+      "u20-escape-speed-and-radius"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c028",
+    "lessonId": "lesson-5",
+    "provenanceType": "gr-supplement",
+    "statement": "The escape-speed calculation is a numerical clue, not the causal derivation of a GR event horizon.",
+    "timestampStart": "34:06",
+    "timestampEnd": "36:17",
+    "argumentUnitIds": [
+      "u20-escape-speed-and-radius"
+    ],
+    "caveat": "Essential guardrail.",
+    "reviewStatus": "requires-external-citation"
+  },
+  {
+    "id": "c029",
+    "lessonId": "lesson-5",
+    "provenanceType": "transcript",
+    "statement": "Slowly lowering a brick extracts gravitational potential energy approximately GMm/r in Newtonian gravity.",
+    "timestampStart": "36:27",
+    "timestampEnd": "37:55",
+    "argumentUnitIds": [
+      "u21-lowering-brick-energy"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c030",
+    "lessonId": "lesson-5",
+    "provenanceType": "transcript",
+    "statement": "Dividing the extracted Newtonian energy by mc² gives the compactness fraction GM/(rc²).",
+    "timestampStart": "36:27",
+    "timestampEnd": "37:55",
+    "argumentUnitIds": [
+      "u21-lowering-brick-energy"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c031",
+    "lessonId": "lesson-5",
+    "provenanceType": "transcript",
+    "statement": "Naively extrapolating the Newtonian fraction can suggest extracting more than the brick’s rest energy.",
+    "timestampStart": "42:23",
+    "timestampEnd": "43:52",
+    "argumentUnitIds": [
+      "u23-over-unity-paradox"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c032",
+    "lessonId": "lesson-5",
+    "provenanceType": "transcript",
+    "statement": "Recycling such a surplus into new mass would create a perpetual-motion contradiction.",
+    "timestampStart": "42:23",
+    "timestampEnd": "43:52",
+    "argumentUnitIds": [
+      "u23-over-unity-paradox"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c033",
+    "lessonId": "lesson-5",
+    "provenanceType": "transcript",
+    "statement": "The system forms a black hole before the impossible Newtonian cycle can be completed.",
+    "timestampStart": "44:00",
+    "timestampEnd": "47:01",
+    "argumentUnitIds": [
+      "u24-collapse-blocks-the-machine"
+    ],
+    "caveat": "The exact mechanism is completed in Lesson 6.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c034",
+    "lessonId": "lesson-5",
+    "provenanceType": "gr-supplement",
+    "statement": "An event horizon is a causal boundary whose interior future-directed signals cannot reach the external region.",
+    "timestampStart": "44:00",
+    "timestampEnd": "47:01",
+    "argumentUnitIds": [
+      "u24-collapse-blocks-the-machine"
+    ],
+    "caveat": "Replaces escape-speed language with the GR concept.",
+    "reviewStatus": "requires-external-citation"
+  },
+  {
+    "id": "c035",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "The static Schwarzschild description reduces to Newtonian gravity far away and becomes singular for hovering at the horizon.",
+    "timestampStart": "47:12",
+    "timestampEnd": "50:58",
+    "argumentUnitIds": [
+      "u25-relativistic-force-correction"
+    ],
+    "caveat": "Do not apply hovering acceleration to a free-faller.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c036",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "A static observer near a black hole is accelerated, whereas an orbiting or falling observer can be in free fall.",
+    "timestampStart": "51:07",
+    "timestampEnd": "55:27",
+    "argumentUnitIds": [
+      "u26-static-versus-orbiting"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c037",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "For static Schwarzschild observers, the clock-rate factor relative to infinity is sqrt(1-2GM/(rc²)).",
+    "timestampStart": "55:34",
+    "timestampEnd": "58:54",
+    "argumentUnitIds": [
+      "u27-gravitational-time-dilation"
+    ],
+    "caveat": "Valid outside the horizon for static observers.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c038",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "Light climbing outward is received at lower frequency and energy because fewer crests arrive per unit time.",
+    "timestampStart": "59:02",
+    "timestampEnd": "1:03:03",
+    "argumentUnitIds": [
+      "u28-redshift-from-pulse-counting"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c039",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "A local object with rest energy mc² can have a smaller conserved energy value as measured from infinity.",
+    "timestampStart": "1:03:10",
+    "timestampEnd": "1:05:24",
+    "argumentUnitIds": [
+      "u29-energy-at-infinity"
+    ],
+    "caveat": "Observer and spacetime assumptions must be explicit.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c040",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "The idealized extractable fraction approaches 1 as the release point approaches the horizon.",
+    "timestampStart": "1:05:32",
+    "timestampEnd": "1:08:52",
+    "argumentUnitIds": [
+      "u30-exact-extraction-fraction"
+    ],
+    "caveat": "Requires the assumptions in the implementation plan.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c041",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "An idealized black-hole lowering process can access a much larger fraction of rest energy than chemical or ordinary nuclear reactions.",
+    "timestampStart": "1:09:01",
+    "timestampEnd": "1:11:07",
+    "argumentUnitIds": [
+      "u31-black-hole-power-plant"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c042",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "A distant observer receives increasingly delayed and redshifted signals and does not receive the crossing at finite Schwarzschild time.",
+    "timestampStart": "1:13:50",
+    "timestampEnd": "1:16:26",
+    "argumentUnitIds": [
+      "u33-two-observer-question",
+      "u34-distant-view-of-infall"
+    ],
+    "caveat": "Do not depict a permanently bright frozen image.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c043",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "The infaller crosses a sufficiently large event horizon in finite proper time without a locally singular event at the horizon.",
+    "timestampStart": "1:16:35",
+    "timestampEnd": "1:18:48",
+    "argumentUnitIds": [
+      "u35-infaller-horizon-and-tides"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c044",
+    "lessonId": "lesson-6",
+    "provenanceType": "transcript",
+    "statement": "Tidal forces at the horizon are weaker for larger black holes.",
+    "timestampStart": "1:16:35",
+    "timestampEnd": "1:18:48",
+    "argumentUnitIds": [
+      "u35-infaller-horizon-and-tides"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c045",
+    "lessonId": "lesson-6",
+    "provenanceType": "gr-supplement",
+    "statement": "The horizon and curvature singularity are distinct; the horizon can be locally regular while the singularity marks failure of the classical solution.",
+    "timestampStart": "1:16:35",
+    "timestampEnd": "1:18:48",
+    "argumentUnitIds": [
+      "u35-infaller-horizon-and-tides"
+    ],
+    "caveat": "Required distinction.",
+    "reviewStatus": "requires-external-citation"
+  },
+  {
+    "id": "c046",
+    "lessonId": "lesson-7",
+    "provenanceType": "transcript",
+    "statement": "Singularity theorems helped establish black-hole formation as a generic consequence rather than a finely tuned pathology.",
+    "timestampStart": "1:18:54",
+    "timestampEnd": "1:20:03",
+    "argumentUnitIds": [
+      "u36-generic-black-hole-formation"
+    ],
+    "caveat": "State theorem assumptions later.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c047",
+    "lessonId": "lesson-7",
+    "provenanceType": "transcript",
+    "statement": "Stellar orbits around the Galactic center imply a massive, compact, dark central object.",
+    "timestampStart": "1:20:10",
+    "timestampEnd": "1:21:19",
+    "argumentUnitIds": [
+      "u37-sagittarius-orbits"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c048",
+    "lessonId": "lesson-7",
+    "provenanceType": "transcript",
+    "statement": "LIGO observations match signals from compact-object mergers including black-hole binaries.",
+    "timestampStart": "1:21:26",
+    "timestampEnd": "1:22:32",
+    "argumentUnitIds": [
+      "u38-gravitational-wave-evidence"
+    ],
+    "caveat": "Current event counts require later sourcing.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c049",
+    "lessonId": "lesson-7",
+    "provenanceType": "transcript",
+    "statement": "EHT observations resolve emission from matter in strong-gravity environments around supermassive black holes.",
+    "timestampStart": "1:22:44",
+    "timestampEnd": "1:23:16",
+    "argumentUnitIds": [
+      "u39-eht-evidence"
+    ],
+    "caveat": "Do not call the bright ring the horizon.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c050",
+    "lessonId": "lesson-7",
+    "provenanceType": "transcript",
+    "statement": "GR predicts deflection of light near the Sun that differs from a simple Newtonian particle estimate.",
+    "timestampStart": "1:24:23",
+    "timestampEnd": "1:26:05",
+    "argumentUnitIds": [
+      "u41-light-bending-prediction"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c051",
+    "lessonId": "lesson-7",
+    "provenanceType": "transcript",
+    "statement": "The 1919 eclipse expeditions reported shifts consistent with Einstein’s prediction and drove his public fame.",
+    "timestampStart": "1:26:13",
+    "timestampEnd": "1:29:25",
+    "argumentUnitIds": [
+      "u42-eclipse-test"
+    ],
+    "caveat": "Measurement quality needs historical sourcing.",
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c052",
+    "lessonId": "lesson-7",
+    "provenanceType": "gr-supplement",
+    "statement": "Confidence in astrophysical black holes comes from converging dynamical, waveform, and imaging evidence.",
+    "timestampStart": "1:20:10",
+    "timestampEnd": "1:23:16",
+    "argumentUnitIds": [
+      "u37-sagittarius-orbits",
+      "u38-gravitational-wave-evidence",
+      "u39-eht-evidence"
+    ],
+    "caveat": "Avoid treating one observation as exhaustive proof.",
+    "reviewStatus": "requires-external-citation"
+  },
+  {
+    "id": "c053",
+    "lessonId": "epilogue",
+    "provenanceType": "transcript",
+    "statement": "Finite light speed and mass equality are powerful clues but may not uniquely determine GR without more consistency requirements.",
+    "timestampStart": "1:29:33",
+    "timestampEnd": "1:33:30",
+    "argumentUnitIds": [
+      "u43-ai-and-theory-discovery",
+      "u44-necessary-clues"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c054",
+    "lessonId": "epilogue",
+    "provenanceType": "transcript",
+    "statement": "When experiments are inaccessible, theory search relies on mathematical consistency and recovery of known limits.",
+    "timestampStart": "1:33:39",
+    "timestampEnd": "1:35:04",
+    "argumentUnitIds": [
+      "u45-consistency-and-known-limits"
+    ],
+    "caveat": null,
+    "reviewStatus": "transcript-mapped"
+  },
+  {
+    "id": "c055",
+    "lessonId": "epilogue",
+    "provenanceType": "transcript",
+    "statement": "Future AI systems may search not only for results but for human-comprehensible explanations.",
+    "timestampStart": "1:35:13",
+    "timestampEnd": "1:38:19",
+    "argumentUnitIds": [
+      "u46-ai-as-explainer"
+    ],
+    "caveat": "A forecast, not established fact.",
+    "reviewStatus": "transcript-mapped"
+  }
+]

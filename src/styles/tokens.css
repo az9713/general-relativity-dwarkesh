@@ -1,0 +1,77 @@
+:root {
+  /* Surfaces */
+  --bg: #f6f4ef;
+  --bg-elevated: #fffcf7;
+  --bg-muted: #ebe7df;
+  --ink: #1a1f2b;
+  --ink-muted: #4a5160;
+  --ink-faint: #6d7585;
+  --border: #d4cfc4;
+  --border-strong: #b8b1a3;
+
+  /* Semantic accents */
+  --geometry: #1f4e79;
+  --geometry-soft: #d6e4f2;
+  --matter: #9a4a16;
+  --matter-soft: #f3e0d0;
+  --light: #c9a227;
+  --light-soft: #f7efd0;
+  --observer-a: #0f6b5c;
+  --observer-b: #6b2d8b;
+  --warning: #a33b2d;
+  --warning-soft: #f5d9d4;
+  --success: #2f6b3a;
+  --success-soft: #d8edd9;
+  --uncertainty: #6b5b2e;
+
+  /* Archive rare-book palette */
+  --archive-paper: #f3ead6;
+  --archive-ink: #2a241c;
+  --archive-oxblood: #6e2c2c;
+  --archive-prussian: #1f3a4d;
+  --archive-gold: #a6893d;
+  --archive-rule: #c9b896;
+
+  /* Type */
+  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-mono: "Cascadia Code", "Fira Code", Consolas, monospace;
+  --font-scale: 1;
+
+  /* Layout */
+  --max-width: 46rem;
+  --max-width-wide: 68rem;
+  --header-h: 3.25rem;
+  --rail-h: 3rem;
+  --sticky-offset: calc(var(--header-h) + var(--rail-h) + 0.5rem);
+  --radius: 0.5rem;
+  --radius-lg: 0.85rem;
+  --shadow: 0 1px 2px rgba(26, 31, 43, 0.06), 0 8px 24px rgba(26, 31, 43, 0.06);
+  --focus: 0 0 0 3px rgba(31, 78, 121, 0.35);
+
+  color-scheme: light;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion: 0;
+  }
+}
+
+html[data-reduced-motion='true'] {
+  --motion: 0;
+}
+
+html:not([data-reduced-motion='true']) {
+  --motion: 1;
+}
+
+html[data-plain-archive='true'] .archive-theme {
+  --archive-paper: var(--bg);
+  --archive-ink: var(--ink);
+  --archive-oxblood: var(--geometry);
+  --archive-prussian: var(--geometry);
+  --archive-gold: var(--border-strong);
+  --archive-rule: var(--border);
+  font-family: var(--font-sans);
+}

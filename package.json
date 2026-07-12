@@ -1,0 +1,22 @@
+{
+  "name": "essence-of-gr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive, offline-capable general relativity learning experience grounded in Adam Brown's lecture.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "validate:source": "node scripts/validate_source.js",
+    "validate:content": "node scripts/validate_content.js",
+    "export:flashcards": "node scripts/export_flashcards.js",
+    "test:unit": "node --test tests/unit/*.test.js"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "katex": "^0.16.22"
+  }
+}
